@@ -1,7 +1,7 @@
 import * as mongoose from 'mongoose';
 
 export const ListSchema = new mongoose.Schema({
-  type: {
+  id: {
     type: String,
     required: true,
   },

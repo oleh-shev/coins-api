@@ -6,8 +6,8 @@ export class ItemController {
   constructor(private itemService: ItemService) {
   }
 
-  @Get('item/:id')
+  @Get('/:id')
   async getItem(@Param('id') id: string) {
-    
+    return this.itemService.getItem(id);
   }
 }

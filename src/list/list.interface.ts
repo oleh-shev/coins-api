@@ -1,5 +1,5 @@
 export interface List extends Document {
-  type: string;
+  id: string;
   name: string;
   isActive: boolean;
 }

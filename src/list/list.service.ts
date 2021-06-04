@@ -2,7 +2,6 @@ import { Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 import { List } from './list.interface';
-import { create } from 'domain';
 
 @Injectable()
 export class ListService {
